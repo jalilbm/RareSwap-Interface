@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+  background-image: radial-gradient(circle 450px at 5% -15%, rgb(68 238 255 / 39%) 1.9%, rgb(239 183 192 / 26%) 91.2%);
+}
+.App {
+  height: 100%;
+}
+iframe {
+  z-index: -100 !important;
+}
+input.mintable-checkbox,
+input.burnable-checkbox,
+input.auditable-checkbox,
+input.sellable-checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+}
